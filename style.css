@@ -330,3 +330,18 @@ justify-content:center;
 gap:15px;
 flex-wrap:wrap;
 }
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+/* Prevent section headings from hiding behind navbar */
+#home,
+#about,
+#skills,
+#services,
+#projects,
+#contact {
+    scroll-margin-top: 100px;
+}
